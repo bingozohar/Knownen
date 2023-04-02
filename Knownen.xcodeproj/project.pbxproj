@@ -14,6 +14,9 @@
 		AC1CF0012972CF4300B8F1DA /* KnownenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF0002972CF4300B8F1DA /* KnownenTests.swift */; };
 		AC1CF00B2972CF4300B8F1DA /* KnownenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF00A2972CF4300B8F1DA /* KnownenUITests.swift */; };
 		AC1CF00D2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF00C2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift */; };
+		AC1CF01C2972D90A00B8F1DA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF01B2972D90A00B8F1DA /* WebView.swift */; };
+		AC1CF0202972FA5000B8F1DA /* WikiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF01F2972FA5000B8F1DA /* WikiFile.swift */; };
+		AC1CF022297311A700B8F1DA /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF021297311A700B8F1DA /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AC1CF0062972CF4300B8F1DA /* KnownenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnownenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1CF00A2972CF4300B8F1DA /* KnownenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownenUITests.swift; sourceTree = "<group>"; };
 		AC1CF00C2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC1CF01B2972D90A00B8F1DA /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AC1CF01F2972FA5000B8F1DA /* WikiFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiFile.swift; sourceTree = "<group>"; };
+		AC1CF021297311A700B8F1DA /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				AC1CEFEF2972CF4200B8F1DA /* KnownenApp.swift */,
 				AC1CEFF12972CF4200B8F1DA /* ContentView.swift */,
+				AC1CF01B2972D90A00B8F1DA /* WebView.swift */,
+				AC1CF01F2972FA5000B8F1DA /* WikiFile.swift */,
+				AC1CF021297311A700B8F1DA /* Page.swift */,
 				AC1CEFF32972CF4300B8F1DA /* Assets.xcassets */,
 				AC1CEFF52972CF4300B8F1DA /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1CF01C2972D90A00B8F1DA /* WebView.swift in Sources */,
 				AC1CEFF22972CF4200B8F1DA /* ContentView.swift in Sources */,
+				AC1CF0202972FA5000B8F1DA /* WikiFile.swift in Sources */,
 				AC1CEFF02972CF4200B8F1DA /* KnownenApp.swift in Sources */,
+				AC1CF022297311A700B8F1DA /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,16 +426,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Knownen/Knownen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knownen/Preview Content\"";
+				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,16 +457,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Knownen/Knownen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Knownen/Preview Content\"";
+				DEVELOPMENT_TEAM = S925RQEG9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
