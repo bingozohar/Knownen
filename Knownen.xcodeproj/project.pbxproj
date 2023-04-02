@@ -11,30 +11,10 @@
 		AC1CEFF22972CF4200B8F1DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CEFF12972CF4200B8F1DA /* ContentView.swift */; };
 		AC1CEFF42972CF4300B8F1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1CEFF32972CF4300B8F1DA /* Assets.xcassets */; };
 		AC1CEFF72972CF4300B8F1DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1CEFF62972CF4300B8F1DA /* Preview Assets.xcassets */; };
-		AC1CF0012972CF4300B8F1DA /* KnownenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF0002972CF4300B8F1DA /* KnownenTests.swift */; };
-		AC1CF00B2972CF4300B8F1DA /* KnownenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF00A2972CF4300B8F1DA /* KnownenUITests.swift */; };
-		AC1CF00D2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF00C2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift */; };
 		AC1CF01C2972D90A00B8F1DA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF01B2972D90A00B8F1DA /* WebView.swift */; };
 		AC1CF0202972FA5000B8F1DA /* WikiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF01F2972FA5000B8F1DA /* WikiFile.swift */; };
 		AC1CF022297311A700B8F1DA /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CF021297311A700B8F1DA /* Page.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AC1CEFFD2972CF4300B8F1DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC1CEFE42972CF4200B8F1DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC1CEFEB2972CF4200B8F1DA;
-			remoteInfo = Knownen;
-		};
-		AC1CF0072972CF4300B8F1DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC1CEFE42972CF4200B8F1DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC1CEFEB2972CF4200B8F1DA;
-			remoteInfo = Knownen;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC1CEFEC2972CF4200B8F1DA /* Knownen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knownen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +22,7 @@
 		AC1CEFF12972CF4200B8F1DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC1CEFF32972CF4300B8F1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1CEFF62972CF4300B8F1DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AC1CEFFC2972CF4300B8F1DA /* KnownenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnownenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1CF0002972CF4300B8F1DA /* KnownenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownenTests.swift; sourceTree = "<group>"; };
-		AC1CF0062972CF4300B8F1DA /* KnownenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnownenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1CF00A2972CF4300B8F1DA /* KnownenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownenUITests.swift; sourceTree = "<group>"; };
 		AC1CF00C2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC1CF01B2972D90A00B8F1DA /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -54,20 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC1CEFE92972CF4200B8F1DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC1CEFF92972CF4300B8F1DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC1CF0032972CF4300B8F1DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				AC1CEFEC2972CF4200B8F1DA /* Knownen.app */,
-				AC1CEFFC2972CF4300B8F1DA /* KnownenTests.xctest */,
-				AC1CF0062972CF4300B8F1DA /* KnownenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,42 +118,6 @@
 			productReference = AC1CEFEC2972CF4200B8F1DA /* Knownen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC1CEFFB2972CF4300B8F1DA /* KnownenTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC1CF0132972CF4300B8F1DA /* Build configuration list for PBXNativeTarget "KnownenTests" */;
-			buildPhases = (
-				AC1CEFF82972CF4300B8F1DA /* Sources */,
-				AC1CEFF92972CF4300B8F1DA /* Frameworks */,
-				AC1CEFFA2972CF4300B8F1DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC1CEFFE2972CF4300B8F1DA /* PBXTargetDependency */,
-			);
-			name = KnownenTests;
-			productName = KnownenTests;
-			productReference = AC1CEFFC2972CF4300B8F1DA /* KnownenTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC1CF0052972CF4300B8F1DA /* KnownenUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC1CF0162972CF4300B8F1DA /* Build configuration list for PBXNativeTarget "KnownenUITests" */;
-			buildPhases = (
-				AC1CF0022972CF4300B8F1DA /* Sources */,
-				AC1CF0032972CF4300B8F1DA /* Frameworks */,
-				AC1CF0042972CF4300B8F1DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC1CF0082972CF4300B8F1DA /* PBXTargetDependency */,
-			);
-			name = KnownenUITests;
-			productName = KnownenUITests;
-			productReference = AC1CF0062972CF4300B8F1DA /* KnownenUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +130,6 @@
 				TargetAttributes = {
 					AC1CEFEB2972CF4200B8F1DA = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					AC1CEFFB2972CF4300B8F1DA = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = AC1CEFEB2972CF4200B8F1DA;
-					};
-					AC1CF0052972CF4300B8F1DA = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = AC1CEFEB2972CF4200B8F1DA;
 					};
 				};
 			};
@@ -229,8 +147,6 @@
 			projectRoot = "";
 			targets = (
 				AC1CEFEB2972CF4200B8F1DA /* Knownen */,
-				AC1CEFFB2972CF4300B8F1DA /* KnownenTests */,
-				AC1CF0052972CF4300B8F1DA /* KnownenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +158,6 @@
 			files = (
 				AC1CEFF72972CF4300B8F1DA /* Preview Assets.xcassets in Resources */,
 				AC1CEFF42972CF4300B8F1DA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC1CEFFA2972CF4300B8F1DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC1CF0042972CF4300B8F1DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,37 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC1CEFF82972CF4300B8F1DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC1CF0012972CF4300B8F1DA /* KnownenTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC1CF0022972CF4300B8F1DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC1CF00B2972CF4300B8F1DA /* KnownenUITests.swift in Sources */,
-				AC1CF00D2972CF4300B8F1DA /* KnownenUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC1CEFFE2972CF4300B8F1DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC1CEFEB2972CF4200B8F1DA /* Knownen */;
-			targetProxy = AC1CEFFD2972CF4300B8F1DA /* PBXContainerItemProxy */;
-		};
-		AC1CF0082972CF4300B8F1DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC1CEFEB2972CF4200B8F1DA /* Knownen */;
-			targetProxy = AC1CF0072972CF4300B8F1DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AC1CF00E2972CF4300B8F1DA /* Debug */ = {
@@ -483,78 +355,6 @@
 			};
 			name = Release;
 		};
-		AC1CF0142972CF4300B8F1DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = u14e5.KnownenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knownen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Knownen";
-			};
-			name = Debug;
-		};
-		AC1CF0152972CF4300B8F1DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = u14e5.KnownenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knownen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Knownen";
-			};
-			name = Release;
-		};
-		AC1CF0172972CF4300B8F1DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = u14e5.KnownenUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Knownen;
-			};
-			name = Debug;
-		};
-		AC1CF0182972CF4300B8F1DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = u14e5.KnownenUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Knownen;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,24 +372,6 @@
 			buildConfigurations = (
 				AC1CF0112972CF4300B8F1DA /* Debug */,
 				AC1CF0122972CF4300B8F1DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC1CF0132972CF4300B8F1DA /* Build configuration list for PBXNativeTarget "KnownenTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC1CF0142972CF4300B8F1DA /* Debug */,
-				AC1CF0152972CF4300B8F1DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC1CF0162972CF4300B8F1DA /* Build configuration list for PBXNativeTarget "KnownenUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC1CF0172972CF4300B8F1DA /* Debug */,
-				AC1CF0182972CF4300B8F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
